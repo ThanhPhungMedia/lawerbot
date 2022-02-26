@@ -1,0 +1,42 @@
+{
+    "NAME": "𝖎𝖈𝖊 𝖇𝖔𝖙❄️",
+    "PREFIX": "❄️",
+    "ADMIN": [
+        "100011363047218",
+        "100078486722654"
+    ],
+    "EXCEPTION": [],
+    "encryptSt": false,
+    "DATABASE": {
+        "type": "local",
+        "uriMongodb": "mongodb+srv://admin:admin@cluster0.jhwry.mongodb.net/Lawer_Oficial?retryWrites=true&w=majority",
+        "notes": "Choose *local* or *mongodb*"
+    },
+    "DEVMODE": true,
+    "AUTORESTART": true,
+    "LANGUAGE_SCRIPTS": "vi_VN.loli",
+    "DATA_APPSTATE": "fbstate",
+    "TOKEN": "EAAGNO4a7r2wBAK9mQ3nsV5xkeZCxjxLn88g2uaAQpiiyZBG3pUFIIjJ7JFkFw0ZA1gZA5JxKIpBJLG8vLIZATM8y5ha7NOqrVLTppcbkPVmI0DUq1gD6aZCkEIiRWDAKCorzopaWqvQXiTiDbr3xNhstpoOY7wTg8xxgFJFdFBywZDZD",
+    "LOGIN_EMAIL_PASSWORD": {
+        "EMAIL": "",
+        "PASSWORD": "",
+        "OTPKEY": {
+            "status": false,
+            "key": ""
+        },
+        "FCA": {
+            "logLevel": "silent",
+            "forceLogin": true,
+            "userAgent": "Special Agent v 1.0.16"
+        }
+    },
+    "FCA": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "logLevel": "error",
+        "autoReconnect": true,
+        "updatePresence": true,
+        "selfListen": true,
+        "userAgent": "Special Agent v 1.0.16"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "scripts": [
+        {
+            "name": "help",
+            "configCommand": {
+                "autoUnsend": true,
+                "delayUnsend": 55
+            }
+        }
+    ],
+    "events": []
+}

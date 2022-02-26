@@ -1,0 +1,34 @@
+hello anh em=)))
+Tôi là DuyVuong (Admin chính của pr0ject này)
+tôi sẽ làm cho anh em 1 file txt hướng dẫn covert module mirai sang scripts Lawer nhé
+do các bạn covert như cec đúng hơn là do thằng Lê Đức Thuận(Yuki Procoder c3c) covert như lìn
+
+---------------------------------------------------------------------------------------------
+STT: 1
+script Lawer cũng như Mirai nhưng thay đổi 1 vài thứ!
+nếu như bên trong module mirai có 
+expamle: const fs = global.nodemodule['fs-extra']
+thì anh em thay đổi hộ mình thành: const fs = require('fs-extra')
+
+STT: 2
+nếu như bên trong module có
+example: global.cliet.handlReply.push({ .... gì gì đó lười ghi })
+thì thay đổi thành: global.reply.push({ .... gì gì đó vẫn để như cũ không thay đổi nhé! })
+
+STT: 3
+cũng như reply, reaction cũng chả khác gì chỉ đổi: global.reply -> global.reaction nhé
+
+STT: 4
+để anh em dễ hiểu các function trong script Lawer thì
+onMessage: nó như run của Mirai
+onReply: như handlReply của Mirai
+onReaction: như handlReaction của Mirai
+onEvent: như handleEvent của mirai (Vui lòng đừng làm noprefix nữa:<< huhu)
+
+STT: 5
+get data Thread thì anh em dùng: const dataThread = Threads.getData(id thread cần get data)
+get data User thì anh em dùng: const dataUser = Users.getData(senderID cần get data)
+lưu ý: bên trong function cần có Users, Threads ví dụ như: function hentai({ api, event, Threads, Users, global, args }) nhé!
+---------------------------------------------------------------------------------------------
+Thế thôi, thiếu gì update sau.
+UPDATE TIME: 05:38, 01-01-2022
