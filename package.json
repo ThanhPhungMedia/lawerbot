@@ -17,7 +17,7 @@
         "imgur": "^1.0.2",
         "lawerpr0ject-api": "^1.6.4",
         "moment-timezone": "^0.5.34",
-        "mongoose": "^6.1.4",
+        "mongoose": "^6.4.6",
         "node-cmd": "^5.0.0",
         "request": "^2.88.2",
         "string-similarity": "^4.0.4",
